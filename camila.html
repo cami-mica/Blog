@@ -1,56 +1,68 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Blog de Camila</title>
+  <meta charset="UTF-8">
+  <title>Blog de Camila</title>
+  <link rel="stylesheet" href="styles_Camila.css">
 </head>
+
 <body>
-    <header style="background-color: #FFC0CB; padding: 20px; text-align: center;">
-        <h1>BLOG PERSONAL DE CAMILA</h1>
-    </header>
+  <header>
+    <h1>BLOG PERSONAL DE CAMILA</h1>
+    <nav>
+      <ul class="nav">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="publicaciones.html">Publicaciones</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <section style="display: flex; padding: 20px;">
-        <!-- Barra lateral -->
-        <aside style="width: 30%; padding: 10px;">
-            <h2>Sobre mí</h2>
-            <p>Algo que quiera contar sobre mí.</p>
+  <main class="contenedor">
+    <!-- Columna izquierda: Foto e info -->
+    <section class="columna izquierda">
+      <img src="foto.jpg" class="foto-circular">
+      
+      <h2>Información Personal</h2>
+      <p>Mis datos.</p>
 
-            <h2>Mis intereses</h2>
-            <p>Lo que me gusta.</p>
+      <h2>Sobre mí</h2>
+      <p>Algo que quiera contar sobre mí.</p>
 
-            <h2>Amigos y familia</h2>
-            <p>Lo que quiera contar acerca de amigos y familia.</p>
-        </aside>
+      <h2>Mis intereses</h2>
+      <p>Lo que me gusta.</p>
 
-        <!-- Contenido principal -->
-        <article style="width: 70%; padding: 10px;">
-            <img src="mi_foto.jpg" alt="Foto mia" style="width: 100px;">
-            <h2>Infromación Personal</h2>
-            <p>Mis datos.</p>
-
-            <h2>Publicaciones</h2>
-            <p>Texto, imágenes o enlaces.</p>
-        </article>
+      <h2>Amigos y familia</h2>
+      <p>Lo que quiera contar acerca de amigos y familia.</p>
     </section>
 
-    <aside style="padding: 20px;">
-        <h2>Mis Apps Favoritas</h2>
-        <ul>
-            <li><a href="https://ar.pinterest.com/homefeed/">Pinterest</a></li>
-            <li><a href="https://letterboxd.com/">Letterboxd</a></li>
-            <li><a href="https://open.spotify.com/">Spotify</a></li>
-        </ul>
+    <!-- Columna derecha: Publicaciones y links -->
+    <section class="columna derecha">
+      <h2>Mis Redes Sociales</h2>
+      <ul>
+        <li><a href="https://www.instagram.com/camii.gnz_/" target="_blank">Instagram</a></li>
+        <li><a href="https://x.com/home" target="_blank">Twitter</a></li>
+        <li><a href="https://www.tiktok.com/@camuu15" target="_blank">TikTok</a></li>
+      </ul>
 
-        <h2>Enlaces de amigos y familia</h2>
-        <ul>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-        </ul>
-    </aside>
+      <h2>Mis Apps Favoritas</h2>
+      <ul>
+        <li><a href="https://ar.pinterest.com/camica15/" target="_blank">Pinterest</a></li>
+        <li><a href="https://letterboxd.com/cami_05/" target="_blank">Letterboxd</a></li>
+        <li><a href="https://open.spotify.com/user/20b99ih4un6uy155klpwj0vxu?si=7db73b20264a4820" target="_blank">Spotify</a></li>
+      </ul>
 
-    <footer style="background-color: lightgray; text-align: center; padding: 10px;">
-        <p>&copy; 2025 Blog de Camila</p>
-    </footer>
+      <h2>Mis Plataformas Favoritas</h2>
+      <ul>
+        <li><a href="https://www.netflix.com/ar/redeem" target="_blank">Netflix</a></li>
+        <li><a href="https://www.twitch.tv/" target="_blank">Twitch</a></li>
+        <li><a href="https://www.disneyplus.com/home" target="_blank">Disney</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Blog de Camila</p>
+  </footer>
 </body>
 </html>
