@@ -23,6 +23,7 @@ aside {
     padding: 20px;
     float: left;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
 }
 
 article {
@@ -41,7 +42,6 @@ h2 {
     color: black;
 }
 
-/* Estilo de menú desplegable */
 nav {
     background: linear-gradient(to right, black, navy, rgb(43, 5, 66));
     overflow: hidden;
@@ -55,5 +55,12 @@ nav a {
 }
 
 nav a:hover {
-    background-color: crimson;
+    background-color: rgb(98, 172, 197);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center
 }
