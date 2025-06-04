@@ -1,78 +1,35 @@
 <!DOCTYPE html>
 <html lang="es">
+
+
 <head>
+    <link rel="stylesheet" href="styles_Agustin.css">
     <meta charset="UTF-8">
+    
+
     <title>Blog de Agustin</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-        }
-        header {
-            background: linear-gradient(to right, black, navy, rgb(43, 5, 66));
-             color: white;
-             padding: 30px 0;
-             text-align: center;
-        }
-        section {
-            display: flex;
-            padding: 20px;
-        }
-        aside {
-            background-color: #ffffff;
-            width: 30%;
-            padding: 20px;
-            float: left;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        article {
-            background-color: #ffffff;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-        img {
-            border-radius: 50%;
-            border: 3px solid crimson;
-        }
-
-        h2 {
-            color: crimson;
-        }
-
-        /* Estilo de menú desplegable */
-        nav {
-            background: linear-gradient(to right, black, navy, rgb(43, 5, 66));
-            overflow: hidden;
-        }
-
-        nav a {
-            color: white;
-            padding: 14px 20px;
-            text-decoration: none;
-            display: inline-block;
-        }
-
-        nav a:hover {
-            background-color: crimson;
-        }
-    </style>
-        
+    
 </head>
 <body>
     <header style=" text-align: center">
         <h1>BLOG PERSONAL DE AGUSTN</h1>
     </header>
     <nav>
-        <a href="#sobre-mi">Sobre mí</a>
-        <a href="#intereses">Intereses</a>
+        <a href="index.html">Inicio</a>
+        <a href="#perfil">Un poco de mi</a>
+        <a href="#Publicaciones">Publicaciones</a>
+        <!--<a href="#intereses">Intereses</a>
         <a href="#familia">Amigos y familia</a>
-        <a href="#publicaciones">Publicaciones</a>
+        <a href="#publicaciones">Publicaciones</a>-->
     </nav>
       
     <aside style="width: 30%; padding: 10px;">
+        <img src="IMG/placeholder_profile.jpg" alt="Foto mia" id="perfil" style="height: 250px; width: 250px;">
+        
+        <h2 id="Infromación Personal">Informacion Personal</h2>
+        
+        <p>Mis datos.</p>
+        
         <h2 id="sobre-mi">Sobre mi</h2>
         <p>Algo que quiera contar sobre mí.</p>
 
@@ -85,9 +42,6 @@
 
         <!-- Contenido principal -->
         <article style=" text-align: center">
-            <img src="mi_foto.jpg" alt="Foto mia" style="width: 100px;">
-            <h2>Infromación Personal</h2>
-            <p>Mis datos.</p>
 
             <h2>Publicaciones</h2>
             <p>Texto, imágenes o enlaces.</p>
