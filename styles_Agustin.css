@@ -142,3 +142,20 @@ footer {
     transform: scale(1.1); 
     transition: transform 0.3s ease;
 }
+
+.foto-viaje {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.foto-viaje img {
+  width: 300px; 
+  height: auto;
+  border-radius: 10px;
+}
+
+.foto-viaje figcaption {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #555;
+}
