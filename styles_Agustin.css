@@ -60,7 +60,85 @@ nav a:hover {
 
 footer {
     position: fixed;
-    bottom: 0;
+    bottom: -15px;
     width: 100%;
-    text-align: center
+    text-align: center;
+    
+}
+
+.Plataformas {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.Plataformas li {
+  margin: 10px 0;
+}
+
+.Plataformas a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.Logo {
+  height: 52px;
+  width: 60px;
+  border-radius: 8px;
+}
+
+
+.logo2 {
+    height: auto;
+    width: 60px;
+    border-radius: 8px;
+}
+
+.logo2:hover {
+  transform: scale(1.1); 
+  transition: transform 0.3s ease; 
+}
+
+.Logo:hover {
+  transform: scale(1.1); 
+  transition: transform 0.3s ease; 
+}
+
+.CR { text-align-last: left;
+
+}
+
+.redes {
+    border-radius: 8px;
+}
+
+.redes:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease;
+    
+}
+
+.Videojuegos {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    gap: 20px;               
+    padding: 20px 0;
+}
+
+.Videojuegos img {
+  width: 150px;          
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.juego:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease;
 }
