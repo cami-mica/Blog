@@ -85,3 +85,25 @@ footer {
   font-size: 14px;
   border-top: 1px solid #c9dbce;
 }
+
+.fotos-nosotros {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.foto-nosotros {
+  width: 250px;
+  height: auto;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 10px; 
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.camila {
+  object-position: center top;
+}
+

@@ -44,19 +44,16 @@ header h1 {
   border-radius: 5px;
 }
 
-/* Contenedor común para ambas páginas */
 .contenedor {
   padding: 30px;
   gap: 40px;
 }
 
-/* Contenedor para la página Inicio (camila.html) - dos columnas horizontales */
 .contenedor-horizontal {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* Contenedor para la página Publicaciones (camilaPublicaciones.html) - posts verticales */
 .contenedor-vertical {
   display: flex;
   flex-direction: column;
@@ -112,7 +109,6 @@ footer {
   font-weight: 500;
 }
 
-/* Estilos para posts (publicaciones) */
 .post-foto.chica {
   width: 300px;
   height: auto;
