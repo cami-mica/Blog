@@ -44,11 +44,22 @@ header h1 {
   border-radius: 5px;
 }
 
+/* Contenedor común para ambas páginas */
 .contenedor {
-  display: flex;
-  flex-wrap: wrap;
   padding: 30px;
   gap: 40px;
+}
+
+/* Contenedor para la página Inicio (camila.html) - dos columnas horizontales */
+.contenedor-horizontal {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Contenedor para la página Publicaciones (camilaPublicaciones.html) - posts verticales */
+.contenedor-vertical {
+  display: flex;
+  flex-direction: column;
 }
 
 .columna {
@@ -60,9 +71,11 @@ header h1 {
 }
 
 .foto-circular {
-  width: 160px;
-  height: 160px;
+  text-align: center;
+  width: 180px;
+  height: 180px;
   object-fit: cover;
+  object-position: 100% 0%;
   border-radius: 50%;
   display: block;
   margin: 0 auto 20px;
@@ -97,4 +110,27 @@ footer {
   margin-top: 40px;
   color: #880e4f;
   font-weight: 500;
+}
+
+/* Estilos para posts (publicaciones) */
+.post-foto.chica {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+  margin: 15px auto;
+}
+
+.post-foto.chica.mediana {
+  width: 700px;
+}
+
+
+.footline {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 15px;
+  border-top: 1px solid #ddd;
+  padding-top: 8px;
 }
