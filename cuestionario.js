@@ -1,6 +1,12 @@
 document.addEventListener('DOMContentLoaded', function () {
   const form = document.getElementById('form-cuestionario');
-
+  const respuestas_correctas = {
+    pregunta1: "2",
+    pregunta2: ["agustin", "agus"], 
+    pregunta3: ["new york", "nueva york"],
+    pregunta4: ["camila", "cami", "peliculas", "pelis"],
+    pregunta5: ["netflix", "twitch"]
+  };
   form.addEventListener('submit', function (e) {
     e.preventDefault();
 
@@ -12,11 +18,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
     let puntaje = 0;
 
-    if (r1 === "2") puntaje += 2;
-    if (r2 === "agustin" || r2 === "agus") puntaje += 2;
-    if (r3 === "new york" || r3 === "nueva york") puntaje += 2;
-    if (r4.includes("camila") && r4.includes("peliculas")) puntaje += 2;
-    if (r5 === "netflix" || r5 === "twitch") puntaje += 2;
+    if (r1 === respuestas_correctas.pregunta1) puntaje += 2;
+    if (respuestas_correctas.pregunta2.includes(r2)) puntaje += 2;
+    if (respuestas_correctas.pregunta3.includes(r3)) puntaje += 2;
+    if (respuestas_correctas.pregunta4.includes(r4)) puntaje += 2;
+    if (respuestas_correctas.pregunta5.includes(r5)) puntaje += 2;
 
     const resultado = document.getElementById('resultado');
     let mensaje = "";
