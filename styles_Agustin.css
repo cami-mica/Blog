@@ -134,6 +134,7 @@ footer {
 .Videojuegos img {
   width: 150px;          
   height: auto;
+  object-fit: cover;
   border-radius: 8px;
   transition: transform 0.3s ease;
 }

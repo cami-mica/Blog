@@ -3,6 +3,7 @@
 
 
 <head>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="styles_Agustin.css">
     <meta charset="UTF-8">
     
@@ -15,6 +16,7 @@
         <h1>BLOG PERSONAL DE AGUSTN</h1>
     </header>
     <nav>
+        <div id="reloj" style="text-align: right; padding: 0px 20px; font-weight: bold; color: white; margin-bottom: 15px"></div>
         <a href="index.html">Inicio</a>
         <a href="#perfil">Un poco de mi</a>
         <a href="#Publicaciones">Publicaciones</a>
@@ -87,15 +89,24 @@
             <div class="Videojuegos">
 
                 <a href="https://store.steampowered.com/app/814380/Sekiro_Shadows_Die_Twice__GOTY_Edition/" target="_blank">
-                    <img src="IMG/sekiro.jpg" alt="Sekiro_Shadows_Die_Twice__GOTY_Edition" class="juego">
+                    <img src="IMG/sekiro.jpg" alt="Sekiro_Shadows_Die_Twice__GOTY_Edition" class="juego"
+                    onmouseover="cambiarImagen(this, 'IMG/steamlogo.jpg')"
+                    onmouseout="volverImagen(this, 'IMG/sekiro.jpg')"
+                    >
                 </a>
                 
                 <a href="https://store.steampowered.com/app/205100/Dishonored/" target="_blank">
-                    <img src="IMG/dishonored.jpg" alt="Dihonored" class="juego">
+                    <img src="IMG/dishonored.jpg" alt="Dihonored" class="juego"
+                    onmouseover="cambiarImagen(this, 'IMG/steamlogo.jpg')"
+                    onmouseout="volverImagen(this, 'IMG/dishonored.jpg')"
+                    >
                 </a>
 
                 <a href="https://store.steampowered.com/app/250900/The_Binding_of_Isaac_Rebirth/" target="_blank">
-                    <img src="IMG/isaac.jpg" alt="The_Binding_of_Isaac_Rebirth" class="juego">
+                    <img src="IMG/isaac.jpg" alt="The_Binding_of_Isaac_Rebirth" class="juego"
+                    onmouseover="cambiarImagen(this, 'IMG/steamlogo.jpg')"
+                    onmouseout="volverImagen(this, 'IMG/isaac.jpg')"
+                    >
                 </a>
 
             </div>
