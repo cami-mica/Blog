@@ -2,6 +2,7 @@
 <html lang="es">
 
 <head>
+  <script src="script.js" defer></script>
   <meta charset="UTF-8">
   <title>Publicaciones de Camila</title>
   <link rel="stylesheet" href="styles_Camila.css">
@@ -21,7 +22,10 @@
 
   <main class="contenedor contenedor-vertical">
     <section class="post">
-        <img src="IMG/fotoLetterboxd.png" alt="Post 1" class="post-foto chica">
+        <img src="IMG/fotoLetterboxd.png" alt="Post 1" class="post-foto chica"
+        onmouseover="cambiarImagen(this, 'IMG/fotoLetterboxd2.png')"
+        onmouseout="volverImagen(this, 'IMG/fotoLetterboxd.png')"
+        >
         <h2>Organizador de películas</h2>
         <p>Los que no están usando Letteboxd para organizar las películas que miran y las que quieren mirar, se están perdiendo de un mundo nuevo.</p>
         <p>Letterboxd es literalmente mi lugar feliz si hablamos de pelis. Es una app donde podés anotar todo lo que vas viendo, poner estrellitas, dejar opiniones y ver qué dicen los demás.</p>
@@ -31,14 +35,20 @@
      </section>
 
     <section class="post">
-        <img src="IMG/fotoDibujo.jpg" alt="Post 2" class="post-foto chica">
+        <img src="IMG/fotoDibujo.jpg" alt="Post 2" class="post-foto chica"
+        onmouseover="cambiarImagen(this, 'IMG/fotoDibujo2.jpg')"
+        onmouseout="volverImagen(this, 'IMG/fotoDibujo.jpg')"
+        >
         <h2>Dibujitos</h2>
-        <p>Me pareció compartir estos pequeños sketches que estaba haciendo!</p>
+        <p>Me pareció compartir estos dibujitos que estaba haciendo!</p>
         <p class="footline">Publicado el 30 de mayo de 2025</p>
     </section>
 
     <section class="post">
-        <img src="IMG/fotoSpotify.png" alt="Post 3" class="post-foto chica mediana">
+        <img src="IMG/fotoSpotify.png" alt="Post 3" class="post-foto chica mediana"
+        onmouseover="cambiarImagen(this, 'IMG/fotoSpotify2.png')"
+        onmouseout="volverImagen(this, 'IMG/fotoSpotify.png')"
+        >
          <h2>🎧📻</h2>
         <p>Expongo mi alma al compartir mi Spoify.</p>
         <p>Vayan a chusmear mis playlists!</p>
